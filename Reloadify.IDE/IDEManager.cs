@@ -98,7 +98,7 @@ namespace Reloadify {
 			{
 				RoslynCodeManager.Shared.StartDebugging();
 				await server.StartListening(port);
-				Log("Listening for clients");
+				Log($"Listening for clients on port {port}");
 			}
 			catch(Exception ex)
 			{
